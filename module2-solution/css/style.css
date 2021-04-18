@@ -20,6 +20,7 @@ h1 {
 .beef h3{
   background-color: #A52A2A;
   border: 2px solid black;
+  color: white;
 }
 
 .sushi h3{
@@ -55,7 +56,7 @@ p {
 @media (min-width: 992px) {
   .chicken, .beef, .sushi{
     width: 30%;
-    height: auto;
+    height: 220px;
     float: left;
     margin: 1.6%;
   }
@@ -66,7 +67,7 @@ p {
   .chicken, .beef {
     margin-bottom: 30px;
     width: 45%;
-    height: auto;
+    height: 220px;
     float: left;
     margin: 1.6%;
   }
@@ -83,6 +84,6 @@ p {
 @media (max-width: 767px) {
   .chicken, .beef, .sushi {
     margin-bottom: 30px;
-    height: auto;
+    height: 220px;
   }
 }
