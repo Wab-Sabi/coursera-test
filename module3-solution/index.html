@@ -4,21 +4,73 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Bootstrap Starter Page</title>
+    <title>Assignment Solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+  <!-- Header -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html" class="hidden-lg hidden-md hidden-sm">
+                <br> Chicken</a>
+            </li>
+            <li>
+              <a href="#" class="hidden-lg hidden-md hidden-sm">
+                <br> Beef</a>
+            </li>
+            <li>
+              <a href="#" class="hidden-lg hidden-md hidden-sm">
+                <br> Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <!-- Container -->
+
+  <h3 class="text-center">Our Menu</h3>
+
+  <div id="home-tiles" class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="menu-tile">
+          <h4>Chicken</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos commodi debitis quisquam repellat delectus alias consequuntur id saepe ab, sequi sunt hic voluptatem laborum vel nemo sed minima quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos commodi debitis quisquam repellat delectus alias consequuntur id saepe ab, sequi sunt hic voluptatem laborum vel nemo sed minima quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos commodi debitis quisquam repellat delectus alias consequuntur id saepe ab, sequi sunt hic voluptatem laborum vel nemo sed minima quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, id, doloremque nobis officiis facere voluptates ducimus dolorum nihil reiciendis voluptas, pariatur voluptatem maxime quo perspiciatis commodi corrupti! Voluptatem, consequuntur est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptate sed sequi? Eaque molestias voluptate corrupti tempora explicabo laboriosam accusantium voluptates, quas non dignissimos unde nisi sequi asperiores vel numquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius consectetur enim, nam accusamus omnis qui expedita nulla saepe tempore eos perferendis similique obcaecati! Quia aperiam quasi adipisci labore at facere!</p>
+        </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="menu-tile">
+          <h4>Beef</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nam esse libero repellat debitis non ex assumenda optio unde nesciunt quas, a atque molestiae dicta quibusdam. Numquam odit est ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos commodi debitis quisquam repellat delectus alias consequuntur id saepe ab, sequi sunt hic voluptatem laborum vel nemo sed minima quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos commodi debitis quisquam repellat delectus alias consequuntur id saepe ab, sequi sunt hic voluptatem laborum vel nemo sed minima quae?</p>
+        </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="menu-tile">
+          <h4>Sushi</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut vitae et iste autem ipsum velit accusantium temporibus iusto delectus dignissimos? Laudantium eius sapiente voluptates, est maxime magni cumque molestias aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos commodi debitis quisquam repellat delectus alias consequuntur id saepe ab, sequi sunt hic voluptatem laborum vel nemo sed minima quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos commodi debitis quisquam repellat delectus alias consequuntur id saepe ab, sequi sunt hic voluptatem laborum vel nemo sed minima quae?</p>
+        </div>
+    </div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
